@@ -81,8 +81,6 @@
 前往扩展商店页面安装：  
 👉 **[DeepSeek Chat Exporter - Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/gjcnegdbpdngedmopbdnkodhnlplnmmf)**
 
-> 注：新版 `v2.3.0`（含新版鲸鱼图标、纯 Markdown 极简弹窗与容错解析）当前处于商店审阅阶段，审核通过后将自动推送更新。
-
 ### 方式二：本地加载开发版（Edge / Chrome 通用）
 
 1. 克隆或下载本仓库源码：
