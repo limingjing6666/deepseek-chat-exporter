@@ -1,0 +1,11 @@
+# Local workspace & private research notes/screenshots
+.workbuddy/
+image/
+DeepSeek_Chat_Exporter_技术方案.md
+DeepSeek_Chat_Exporter_技术方案_v2.md
+
+# Packaged release archives & local dependencies
+*.zip
+node_modules/
+.DS_Store
+Thumbs.db

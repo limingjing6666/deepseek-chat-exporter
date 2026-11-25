@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "DeepSeek Chat Exporter",
+  "version": "2.3.0",
+  "description": "导出 DeepSeek 聊天记录（完整对话+AI思考过程+附件）。双通道：API直取 + DOM滚动兜底",
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://chat.deepseek.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [{
+    "matches": ["https://chat.deepseek.com/*"],
+    "js": ["content.js"],
+    "run_at": "document_idle"
+  }],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
